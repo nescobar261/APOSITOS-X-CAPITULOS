@@ -1,0 +1,426 @@
+\documentclass[../../DocumentoCompleto.tex]{subfiles}
+\begin{document}
+
+\chapter{Identificación de las especificaciones}
+\section{Introducción}
+En el desarrollo de productos, uno de los aspectos fundamentales es la identificación de los requerimientos, entendidos como el proceso mediante el cual se transforman las necesidades, explícitas o implícitas, de los clientes en parámetros claros para el diseño. Por lo tanto, el proceso no se limita a registrar lo que el usuario dice que necesita, sino que implica descubrir necesidades latentes u ocultas, organizar la información en jerarquías de prioridad y, finalmente, traducirla en especificaciones técnicas verificables. Por ende, esta actividad constituye un punto de enlace imentre el mercado y el equipo de desarrollo, pues crea un flujo de información confiable que orienta la generación y selección de conceptos, la comparación con productos existentes y la formulación de especificaciones. De este modo, los requerimientos no solo permiten definir criterios de desempeño y seguridad, sino que también reducen el riesgo de fallas en etapas posteriores, optimizan los recursos y garantizan que el producto final logre un equilibrio entre viabilidad técnica, valor para el cliente y cumplimiento normativo. \parencite[pp.~71--91]{Ulrich2020}
+
+\section{Metodología}
+Para dar cumplimiento al primer objetivo específico, es necesario realizar un levantamiento correcto de requerimientos. Este proceso debe desarrollarse teniendo en cuenta las siguientes fases: (1) Recopilar datos sin procesar de los clientes; (2) Interpretar los datos en términos de necesidades; (3) Organizar las necesidades en una jerarquía; (4) Establecer la importancia relativa de cada una; y (5) Reflexionar sobre los resultados obtenidos y el procedimiento aplicado, tal como se evidencia en la Figura \ref{fig:levantamiento}.
+
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Figuras/levantamiento_requerimientos.png}
+	\caption{\textit{Proceso de levantamiento de requerimientos.}}
+	\label{fig:levantamiento}
+\end{figure}
+
+  \subsection{Recopilar datos sin procesar de los clientes}
+Teniendo en cuenta lo anterior, la primera fase se desarrolló con el fin de identificar áreas de mejora sobre los métodos actuales empleados en el tratamiento de quemaduras por fricción. Para ello, se llevó a cabo una recolección de información mediante la aplicación de entrevistas semiestructuradas a los clientes, la cual permitió obtener datos cualitativos relevantes acerca de las prácticas vigentes y de los procesos de atención implementados en la clínica. Esta información constituyó la base inicial para reconocer limitaciones, valorar posibles alternativas y avanzar hacia la definición de los requerimientos del producto.
+  
+  \subsection{Interpretar los datos en términos de necesidades}
+En esta fase, la información recolectada durante las entrevistas fue procesada y analizada mediante un mapa de empatía, lo que permitió transformar los aportes de los clientes en requerimientos comprensibles y útiles. Este recurso facilitó identificar lo que los profesionales observan en su práctica, lo que expresan y hacen frente a la problemática, así como lo que escuchan en su entorno y lo que piensan y sienten respecto al manejo de las quemaduras por fricción. De igual forma, se pudieron reconocer sus falencias y deseos en relación con el proceso de atención, junto con otros elementos que motivan su comportamiento.
+  
+  \subsection{Organizar las necesidades en una jerarquía}
+  
+     A partir del análisis realizado en las fases anteriores, se establecieron las necesidades primarias, de las cuales se derivaron aquellas de carácter secundario, todas relacionadas con el manejo adecuado de las quemaduras por fricción. Cada necesidad fue vinculada a criterios de evaluación concretos, lo que permitió contar con parámetros objetivos para valorar el cumplimiento de los requerimientos técnicos, clínicos y funcionales.
+
+    Finalmente, en esta fase se definieron los valores de referencia para cada criterio, diferenciando entre aquellos que representan el nivel mínimo aceptable (marginales) y los que corresponden al escenario ideal (ideales). Estos valores se establecieron a partir de la interpretación de las prioridades manifestadas por los clientes, asegurando que las soluciones propuestas respondieran tanto a las exigencias clínicas como a las expectativas de mejora en la experiencia del paciente y del personal médico.
+
+  
+  \subsection{Establecer la importancia relativa de cada una}
+    En esta etapa, las necesidades obtenidas se tradujeron en métricas, entendidas como parámetros cuantificables que permiten evaluar objetivamente el grado de cumplimiento de los requerimientos técnicos \parencite[pp.~71--91]{Ulrich2020}. Para ello, se elaboró un listado estructurado en el que cada necesidad fue asociada a una métrica específica, incluyendo su respectiva unidad de medida.
+
+    Posteriormente, se realizó una comparación con productos similares ya existentes, lo que permitió analizar el comportamiento y establecer un punto de referencia frente a soluciones ya implementadas en el mercado. Finalmente, con base en la información obtenidas, se definieron los valores objetivo para cada métrica, los cuales orientarán el diseño del producto final y garantizarán que responda a las expectativas del cliente, así como a las condiciones técnicas y normativas establecidas.
+    
+
+\section{Resultados}
+  \subsection{Recopilar datos sin procesar de los clientes}
+  Con el propósito de llevar a cabo la entrevista semiestructurada con el cliente, se formularon preguntas orientadas a comprender en profundidad la problemática planteada y a obtener información relevante para el desarrollo del proyecto.
+
+% ================== Tabla preguntas entrevista ==================
+% =================== TABLA EN VARIAS PÁGINAS ===================
+\begin{longtable}{c>{\RaggedRight\arraybackslash}p{11cm}}
+\caption{\textit{Preguntas de la entrevista semiestructurada}}
+\label{tab:preguntas_entrevista} \\
+
+\toprule
+\textbf{Pregunta N°} & \textbf{Preguntas} \\
+\midrule
+\endfirsthead
+
+\multicolumn{2}{c}{\textbf{Cuadro \thetable{} — continuación}} \\ 
+\toprule
+\textbf{Pregunta N°} & \textbf{Preguntas} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{2}{r}{\textit{}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+1 & ¿Qué dificultades son más frecuentes al momento de realizar una curación de heridas? \\
+2 & ¿Qué condiciones tienen en cuenta al momento de tratar una herida? \\
+3 & ¿Por qué se puede ver afectado el tiempo y el proceso de recuperación de un paciente que presenta heridas? \\
+4 & ¿Cuáles son los aspectos importantes que busca en una nueva alternativa? \\
+5 & ¿Cuál es el mejor método para el tratamiento de heridas actualmente? \\
+6 & ¿Qué alternativas diferentes ha conocido para el tratamiento de heridas? \\
+7 & ¿Qué impacto positivo en los procesos de tratamientos de heridas quisiera conseguir? \\
+
+\end{longtable}
+
+
+
+ 
+  \subsection{Interpretar los datos en términos de necesidades}
+  \subsubsection{Mapa de la empatía}
+  A partir de la información recolectada en la entrevista con el cliente, se elaboró el mapa de empatía presentado en la Figura \ref{fig:mapa_empatia}. Esta herramienta permitió profundizar en la comprensión de sus experiencias, frustraciones y expectativas frente al manejo de las quemaduras por fricción, brindando así una visión más clara de las necesidades y oportunidades de mejora. Además, el análisis obtenido facilitó identificar no solo los aspectos clínicos y técnicos relacionados con la atención, sino también las percepciones emocionales y prácticas que influyen en la experiencia en el tratamiento.
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=1\textwidth]{Figuras/MAPAEMPATIA.png}
+    \caption{\textit{Mapa de la empatía.}}
+    \label{fig:mapa_empatia}
+\end{figure}
+
+
+  \subsection{Organizar las necesidades en una jerarquía}
+
+  \subsubsection{Identificación de las necesidades del cliente}
+Teniendo en cuenta los resultados de la entrevista semiestructurada, la información recolectada fue organizada de manera que permitió contrastar los enunciados expresados por el cliente con su respectiva interpretación en términos de necesidades. Este proceso facilitó transformar las percepciones y experiencias manifestadas en requerimientos concretos que orientan el diseño de la solución, como se evidencia en la \tablename~\ref{tab:requerimientos_cliente}.
+
+%%%%%%%%%%%%%%%%%%%%%%TABLA REQUERIMIENTOS DEL CLIENTE%%%%%%%%%%%%%%%%%%%%
+\begin{longtable}{p{0.32\linewidth} p{0.32\linewidth} p{0.32\linewidth}}
+\caption{\textit{Requerimientos del cliente}} \label{tab:requerimientos_cliente} \\
+
+\toprule
+\textbf{Pregunta} & \textbf{Enunciado del Cliente} & \textbf{Necesidad Interpretada} \\ 
+\midrule
+\endfirsthead
+
+\multicolumn{3}{c}{{\bfseries Continuación de la Tabla \ref{tab:requerimientos_cliente}}} \\ \toprule
+\textbf{Pregunta} & \textbf{Enunciado del Cliente} & \textbf{Necesidad Interpretada} \\ 
+\midrule
+\endhead
+
+\midrule
+\multicolumn{3}{r}{{}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+\textit{¿Qué dificultades son más frecuentes al momento de realizar una curación de heridas por fricción?} 
+& Las curaciones las hace el cirujano plástico que no siempre está disponible, aumentando los tiempos de espera 
+& El personal de urgencias puede usar el apósito para tratar la herida \\
+
+\midrule
+\textit{¿Por qué se puede ver afectado el tiempo y el proceso de recuperación de un paciente con heridas de quemadura por fricción?} 
+& El paciente siente mucho dolor y sensación de calor y abrasión, lo que dificulta tratar las heridas 
+& El apósito mejora la calidad de vida del paciente \\
+
+& El servicio de urgencias está congestionado y los pacientes esperan con las heridas expuestas, aumentando la infección 
+& El apósito se puede aplicar inmediatamente luego del desbridaje \\
+
+& Las zonas de pliegue son zonas especiales porque se tiene que cuidar su cicatrización desde cero. Se usan férulas para evitar movimiento 
+& El apósito tiene una geometría que se adapta correctamente a zonas de pliegue y articulaciones \\
+
+\midrule
+\textit{¿Cuáles son los aspectos importantes que busca en una nueva alternativa?}
+& Sería bueno que el apósito permitiera ver la quemadura 
+& El apósito permite la determinación del estado de la herida \\
+
+& Evitar que la herida una vez tratada se infecte y produzca efectos adversos con el paciente 
+& El apósito es biocompatible \\
+
+\midrule
+\textit{¿Qué impacto positivo en los procesos de tratamiento de heridas quisiera conseguir?}
+& Que se logre una rápida curación 
+& El apósito reduce los tiempos de curación \\
+
+& Acortar los procesos de atención a pacientes por consulta a causa de mala cicatrización 
+& El apósito ayuda a una buena cicatrización \\
+\end{longtable}
+
+
+
+
+
+
+ \subsubsection{Ponderación y Jerarquía de las necesidades del cliente}
+Posteriormente, con el propósito de delimitar el proyecto y definir con precisión su alcance, se llevó a cabo un proceso de filtrado y organización de las necesidades identificadas. Cada una de ellas fue ponderada de acuerdo con su nivel de importancia y prioridad, lo que permitió jerarquizarlas de manera estructurada y orientar el diseño hacia los aspectos más críticos para el cliente, evidenciados en la \tablename~\ref{tab:requerimientos_tecnicos}.
+
+
+%%%%%%%%%%%%%%TABLA REQUERIMIENTOS TECNICOS%%%%%%%%%%%%%%%%%
+  % ================== Tabla en varias páginas ==================
+\begin{longtable}{>{\raggedright\arraybackslash}p{4cm} c p{7cm} c}
+\caption{Requerimientos técnicos del proyecto}
+\label{tab:requerimientos_tecnicos} \\
+\toprule
+\textbf{Necesidades primarias} & \textbf{Código} & \textbf{Necesidades secundarias} & \textbf{Ponderación} \\
+\midrule
+\endfirsthead
+
+\multicolumn{4}{c}{{\bfseries \tablename\ \thetable{} -- continuación}} \\
+\toprule
+\textbf{Necesidades primarias} & \textbf{Código} & \textbf{Necesidades secundarias} & \textbf{Ponderación} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{{}} \\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+El personal de urgencias puede usar el apósito para tratar la herida 
+& 1.1 & El apósito es intuitivo y fácil de usar & 2 \\
+& 1.2 & El apósito puede usarse sin necesidad de aplicar cremas o sustancias en la herida & 5 \\
+& 1.3 & El apósito se puede aplicar inmediatamente luego del desbridaje & 5 \\
+& 1.4 & El apósito puede usarse sin necesidad de procedimientos adicionales complejos & 1 \\
+& 1.5 & El apósito permite la determinación del estado de la herida & 4 \\
+& 1.6 & El tamaño del apósito es adecuado para cubrir completamente la herida & 2 \\
+& 1.7 & El costo del apósito es accesible y justificado en relación con sus beneficios clínicos & 2 \\
+\midrule
+El apósito mejora la calidad de vida del paciente 
+& 2.1 & El apósito reduce la sensación de calor en la herida & 2 \\
+& 2.2 & El apósito no se adhiere al tejido neoformado & 4 \\
+\midrule
+El apósito es biocompatible 
+& 2.3 & El apósito disminuye el dolor que siente el paciente en el área de la herida & 4 \\
+& 3.1 & El apósito tiene un efecto bacteriostático & 3 \\
+& 3.2 & El apósito mantiene sus propiedades durante su tiempo de aplicación & 4 \\
+& 3.3 & El apósito permite la permeabilidad del oxígeno & 3 \\
+& 3.4 & El apósito mantiene la zona con una humedad adecuada para fomentar la proliferación celular & 5 \\
+& 3.5 & El apósito no es citotóxico & 5 \\
+\midrule
+El apósito ayuda a una buena cicatrización 
+& 4.1 & El apósito induce la granulación de la herida & 5 \\
+& 4.2 & El apósito tiene un efecto antiinflamatorio & 3 \\
+& 4.3 & El apósito reduce el tiempo de cicatrización & 3 \\
+& 4.4 & El apósito tiene una geometría que se adapta correctamente a zonas de pliegue y articulaciones & 5 \\
+& 4.5 & El apósito tiene una liberación controlada de un fármaco que promueve la granulación & 4 \\
+\end{longtable}
+
+
+
+
+
+ \subsubsection{Definición de métricas}
+Una vez ponderadas las necesidades, aquellas que obtuvieron una calificación igual o superior a 4 fueron transformadas en métricas cuantificables, cada una acompañada de su respectiva unidad de medida. Este proceso permitió establecer parámetros objetivos para evaluar el desempeño del diseño, los cuales se presentan en la \tablename~\ref{tab:listado_metricas}.
+
+
+ 
+%%%%%%%TABLA DE METRICAS%%%%%%
+% ================== Tabla: Listado de métricas ==================
+% ================== Tabla: Listado de métricas ==================
+% TABLA
+
+\begin{longtable}{%
+  >{\centering\arraybackslash}p{1.5cm}   % Código
+  >{\centering\arraybackslash}p{2.3cm}   % Necesidad
+  >{\raggedright\arraybackslash}p{9.0cm} % Métrica
+  >{\centering\arraybackslash}p{2.0cm}   % Unidades
+}
+\caption{Listado de métricas según requerimientos técnicos}
+\label{tab:listado_metricas} \\
+\toprule
+\textbf{Código} & \textbf{Necesidad} & \textbf{Métrica} & \textbf{Unidades} \\
+\midrule
+\endfirsthead
+
+\multicolumn{4}{c}{\textbf{\tablename~\thetable{} — continuación}} \\
+\toprule
+\textbf{Código} & \textbf{Necesidad} & \textbf{Métrica} & \textbf{Unidades} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{4}{r}{\textit{}} \\
+\endfoot
+
+\bottomrule
+\multicolumn{4}{@{}p{\linewidth}}{%
+\textbf{Nota}. Las métricas con asterisco (*) no se evaluaron debido a los alcances de este proyecto.} \\
+\endlastfoot
+
+1  & 1.1      & Tiempo de aplicación*                                                         & s \\
+2  & 1.3–3.2  & Resistencia a la tracción                                                     & MPa \\
+3  & 1.4–4.4  & Módulo de elasticidad                                                         & MPa \\
+4  & 1.4–4.4  & Coeficiente de Poisson                                                        & UA \\
+5  & 1.5      & Facilidad de percepción del estado de la herida*                              & UA \\
+6  & 1.6      & El tamaño del apósito es adecuado para cubrir completamente la herida         & cm \\
+7  & 1.7      & El costo del apósito es accesible y justificado en relación con sus beneficios clínicos & COP \\
+8  & 2.1      & Reducción de temperatura superficial                                          & \(^\circ\)C \\
+9  & 2.2      & Adhesión                                                                      & N \\
+10 & 2.3      & Sensibilidad de los cambios del apósito en la herida*                         & 0–10 \\
+11 & 3.1      & Reducción de la carga bacteriana (ASTM E2315)                                 & \% CFU/mL \\
+12 & 3.2      & Tiempo de degradación                                                         & Días \\
+\end{longtable}
+
+
+
+
+
+\subsubsection{Comparación con la competencia}
+Para la fase de comparación con la competencia, se analizaron apósitos comerciales disponibles en el mercado, así como aquellos descritos en la literatura científica. El objetivo fue identificar los valores reportados de las métricas previamente seleccionadas, con el fin de establecer un marco de referencia que permitiera evaluar el desempeño esperado del nuevo diseño.
+
+%%%%COMPARACON DE COMPETENCIA%%%%%
+
+% Requiere: \usepackage{makecell} \usepackage{booktabs} \usepackage{longtable}
+% (opcional) \usepackage{array}
+
+\begingroup
+\setlength{\tabcolsep}{2pt}        % separación horizontal pequeña
+\renewcommand{\arraystretch}{1.08} % altura de fila
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+
+\begin{center}
+\begin{small}
+\begin{longtable}{%
+  >{\centering\arraybackslash}p{0.85cm}   % Cod
+  >{\raggedright\arraybackslash}p{3.10cm} % Métrica
+  >{\centering\arraybackslash}p{0.95cm}   % Unid.
+  >{\centering\arraybackslash}p{1.70cm}   % A
+  >{\centering\arraybackslash}p{1.35cm}   % B
+  >{\centering\arraybackslash}p{1.35cm}   % C
+  >{\centering\arraybackslash}p{1.75cm}   % D
+  >{\centering\arraybackslash}p{1.20cm}   % E
+  >{\centering\arraybackslash}p{1.75cm}   % F
+}
+\caption{\textit{Comparación de métricas de productos/alternativas}}
+\label{tab:metricas_prod}\\
+
+\toprule
+\textbf{Cod} & \textbf{Métrica} & \textbf{Unid.} &
+\textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{E} & \textbf{F}\\
+\midrule
+\endfirsthead
+
+\multicolumn{9}{c}{\textbf{Tabla \thetable{} — continuación}}\\
+\toprule
+\textbf{Cod} & \textbf{Métrica} & \textbf{Unid.} &
+\textbf{A} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{E} & \textbf{F}\\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{9}{r}{\textit{Continúa en la siguiente página}}\\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+% ---------- DATOS ----------
+2  & Resistencia a la tracción      & MPa  & 15 & 3.4 & 3.0 & —     & —    & — \\
+3  & Módulo de elasticidad          & MPa  & 8.85 & 0.33 & 0.25 & 0.0005 & —    & — \\
+4  & Coeficiente de Poisson         & UA   & —  & — & — & — & — & -0.76 \\
+6  & Tamaño del apósito             & cm   & 10$\times$12 & 3$\times$3 & 3$\times$3 & — & — & — \\
+7  & Costo                          & COP  & 2{,}980 & — & — & — & — & — \\
+8  & Reducción de temp. superficial & °C   & —  & — & — & — & 4--9 & — \\
+9  & Adhesión                       & N    & —  & — & — & 0.181 & — & — \\
+11 & Reducción carga bacteriana     & \%   & —  & — & — & 70 & — & — \\
+12 & Tiempo de degradación          & días & —  & 3  & 3  & 6  & — & — \\
+13 & Hinchamiento $\times$ tiempo   & \%(min) & — & — & — & 800--1000 (30) & — & — \\
+15 & Citotoxicidad                  & \%   & —  & $<25$ & $<10$ & — & — & — \\
+19 & Tiempo lib. del 100\%          & h    & —  & 168 & — & — & — & — \\
+\end{longtable}
+\end{small}
+\end{center}
+\endgroup
+
+% --------- Nota de mapeo A–F ----------
+\begin{center}
+\begin{minipage}{0.96\textwidth}
+\small
+\textbf{Nota.} Para facilitar la lectura, las columnas de competencia se codifican con letras: 
+\textbf{A} = Tegaderm Transparent Film Dressing 1626W \cite{Yu2016,3M2025}; 
+\textbf{B} = Apósito de nanofibras \textit{con fármaco} \cite{Monavari2024}; 
+\textbf{C} = Apósito de nanofibras \textit{sin fármaco} \cite{Monavari2024}; 
+\textbf{D} = Hidrogel cargado con vesículas extracelulares \cite{Szunerits2025};
+\textbf{E} = Burn Cool \cite{Cho2017}; 
+\textbf{F} = Injertos basados en metamateriales auxéticos \cite{Gupta2023}. 
+\end{minipage}
+\end{center}
+
+
+\subsubsection{Definición de valores marginales e ideales
+}
+Con base en los valores obtenidos a partir de apósitos comerciales y de la información reportada en la literatura científica, se definieron los valores objetivos para cada una de las métricas seleccionadas, los cuales se presentan en la \tablename~\ref{tab:metricas_marginales_ideales}. En esta se establecen, por un lado, los valores marginales, que corresponden al límite mínimo aceptable de desempeño para cada métrica; y por otro, los valores ideales, que representan el nivel óptimo esperado.
+
+
+%%%%VALORES OBJETIVOS%%%%%
+
+
+\newcolumntype{R}[1]{>{\RaggedRight\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+\begingroup
+\small                              % un poco más pequeño
+\setlength{\tabcolsep}{6pt}         % margen interno entre columnas
+\renewcommand{\arraystretch}{1.18}  % altura de fila
+
+% ANCHOS AJUSTADOS: (1.45 + 4.2 + 1.25 + 3.45 + 3.45) cm < \textwidth
+\begin{longtable}{
+  C{1.45cm}   % Cod.
+  R{4.20cm}   % Métrica
+  C{1.25cm}   % Unid.
+  R{3.45cm}   % Valor marginal
+  R{3.45cm}   % Valor ideal
+}
+\caption{\textit{Valores objetivo del producto final
+}}
+\label{tab:metricas_marginales_ideales}\\
+
+\toprule
+\makecell{Cod.\\de la\\métrica} &
+\textbf{Métrica} &
+\textbf{Unid.} &
+\textbf{Valor marginal} &
+\textbf{Valor ideal} \\
+\midrule
+\endfirsthead
+
+\multicolumn{5}{c}{\textbf{Cuadro \thetable{} — continuación}}\\
+\toprule
+\makecell{Cod.\\de la\\métrica} &
+\textbf{Métrica} &
+\textbf{Unid.} &
+\textbf{Valor marginal} &
+\textbf{Valor ideal} \\
+\midrule
+\endhead
+
+\midrule
+\multicolumn{5}{r}{\textit{}}\\
+\endfoot
+
+\bottomrule
+\endlastfoot
+
+2  & \textbf{Resistencia a la tracción}               & MPa     & Al menos 3          & Mayor a 15 \\
+3  & \textbf{Módulo de elasticidad}                   & MPa     & Al menos 0.25       & Mayor a 8.85 \\
+4  & \textbf{Coeficiente de Poisson}                  & UA      & Menor a -0.76       & Menor a -1.07 \\
+11 & \textbf{Reducción de la carga bacteriana}        & \%      & Al menos 70         & Exactamente 100 \\
+14 & \textbf{Hinchamiento $\times$ tiempo}            & \%(min) & Mayor a 110 (60)    & Mayor a 800–1000 (30) \\
+15 & \textbf{Citotoxicidad}                           & \%      & Menor a 25          & Exactamente 0 \\
+19 & \textbf{Tiempo de liberación del 100\% de concentración} & h & Mayor a 72 & Mayor a 168 \\
+\end{longtable}
+\endgroup
+
+\section{Discusión}
+
+
+
+
+
+
+
+\end{document}

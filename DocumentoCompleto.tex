@@ -1,0 +1,212 @@
+\documentclass[12pt,final]{aunarAPA}
+
+% ================== Paquetes básicos ==================
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-tabla]{babel}
+
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{subfiles}
+
+\usepackage{amsmath,amssymb,amsfonts,amsthm,bm}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\usepackage{tocloft}
+\usepackage{titlesec}
+\usepackage{indentfirst}
+\usepackage{makecell}
+\usepackage[margin=2.2cm]{geometry}
+
+% Bibliografía (APA con biber)
+\usepackage[style=apa, backend=biber, language=spanish, maxcitenames=2, maxbibnames=99]{biblatex}
+%\usepackage[style=apa]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa}
+\addbibresource{Biblio.bib}
+%\usepackage[]{biblatex}
+
+
+\usepackage{setspace}
+\doublespacing
+\usepackage[document]{ragged2e}
+\let\cite\parencite
+
+% ================== Tablas ==================
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{caption}
+\usepackage{threeparttablex}
+
+% Ajustes globales de tablas
+\renewcommand{\arraystretch}{1.22}
+\setlength{\tabcolsep}{4pt}
+
+% ---- Formato de títulos de tablas ----
+\captionsetup[table]{%
+  name=Tabla,
+  labelfont=bf,
+  textfont=it,
+  singlelinecheck=false,
+  justification=raggedright
+}
+\captionsetup[longtable]{name=Tabla}
+\makeatletter
+\renewcommand{\fnum@table}{\tablename~\thetable}
+\makeatother
+
+% ================== Índices ==================
+\renewcommand{\contentsname}{Tabla de contenido}
+\renewcommand{\cfttoctitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftaftertoctitle}{\hfill}
+
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftchappagefont}{}
+\renewcommand{\cftsecfont}{}
+\renewcommand{\cftsecpagefont}{}
+\renewcommand{\cftsubsecfont}{}
+\renewcommand{\cftsubsecpagefont}{}
+\renewcommand{\cftsubsubsecfont}{}
+\renewcommand{\cftsubsubsecpagefont}{}
+
+\cftsetindents{chapter}{0pt}{3.5em}
+\cftsetindents{section}{1.8em}{3.2em}
+\cftsetindents{subsection}{3.8em}{3.2em}
+\cftsetindents{subsubsection}{5.5em}{3.2em}
+
+% ================== Lista de Figuras y Tablas ==================
+\renewcommand{\listfigurename}{Lista de figuras}
+\renewcommand{\listtablename}{Lista de tablas}
+\renewcommand{\cftloftitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftafterloftitle}{\hfill}
+\renewcommand{\cftlottitlefont}{\hfill\bfseries\normalsize}
+\renewcommand{\cftafterlottitle}{\hfill}
+\renewcommand{\cftfigfont}{}
+\renewcommand{\cftfigpagefont}{}
+\renewcommand{\cfttabfont}{}
+\renewcommand{\cfttabpagefont}{}
+
+\sisetup{locale=DE, table-number-alignment=center}
+
+% ================== Títulos (mismo tamaño, negrita) ==================
+\titleformat{\chapter}[hang]{\bfseries\normalsize}{\thechapter.}{0.5em}{}
+\titlespacing*{\chapter}{0pt}{0.75ex}{0.75ex}
+
+\titleformat{\section}[hang]{\bfseries\normalsize}{\thesection}{0.5em}{}
+\titlespacing*{\section}{0pt}{0.75ex}{0.5ex}
+
+\titleformat{\subsection}[hang]{\bfseries\normalsize}{\thesubsection}{0.5em}{}
+\titlespacing*{\subsection}{1.5em}{0.75ex}{0.5ex}
+
+\titleformat{\subsubsection}[hang]{\bfseries\normalsize}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\subsubsection}{3em}{0.75ex}{0.5ex}
+
+% ================== “Capítulos pequeños” ==================
+\newcommand{\smallchapter}[1]{%
+  \clearpage
+  \vspace*{1cm}
+  \begin{center}\textbf{\normalsize #1}\end{center}
+  \vspace{0.5cm}
+  \addcontentsline{toc}{chapter}{#1}
+}
+
+% ================== Hipervínculos ==================
+\usepackage[hidelinks]{hyperref}
+
+% ================== Metadatos aunarAPA ==================
+\institucion{Universidad Autónoma de Bucaramanga}
+\facultad{Ingeniería}
+\programa{Ingeniería Biomédica}
+\ciudad{Bucaramanga}
+\yeardef{2025}
+
+% ================== Documento ==================
+\begin{document}
+
+% ----------- PORTADA ÚNICA -----------
+\begin{titlepage}
+\centering
+\vspace*{1cm}
+{\bfseries\normalsize
+Apósito con Geometría Auxética para la Epitelización de Quemaduras de Segundo Grado por Fricción\par}
+
+\vspace{3.5cm}
+{\bfseries\normalsize Autores:}\\[0.6cm]
+{\normalsize
+Nombre1\\
+Nombre2\\
+Nombre3}
+
+\vspace{2.2cm}
+{\bfseries\normalsize Director:} PhD. Mateo Escobar Jaramillo
+
+\vspace{3.5cm}
+{\normalsize
+Universidad Autónoma de Bucaramanga\\
+Facultad de Ingeniería\\
+Programa de Ingeniería Biomédica}
+
+\vfill
+{\normalsize 2025}
+\end{titlepage}
+% ----------- FIN PORTADA -----------
+
+% ================== Configuración general ==================
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{3}
+\setlength{\parindent}{1.27cm}
+
+% ================== Preliminares e índices ==================
+\clearpage
+\pagenumbering{Roman}
+\setcounter{page}{1} % Portada = I
+
+\newpage
+\tableofcontents
+\newpage
+\listoffigures
+\newpage
+\listoftables
+
+\newpage 
+\subfile{./1agradecimientos/agradecimientos}   % II
+\newpage 
+\subfile{./2dedicatoria/dedicatoria}       % III
+\newpage 
+\subfile{./3resumen/resumen}           % IV
+\newpage 
+\subfile{./4abstract/abstract}          % V
+
+\clearpage
+\pagenumbering{arabic} % volver a numeración normal
+
+% ================== Capítulos ==================
+\newpage 
+\subfile{./5cap1/capitulo1}
+
+\newpage 
+\subfile{./6cap2/capitulo2}
+
+\newpage 
+\subfile{./7cap3/capitulo3}
+
+\newpage 
+\subfile{./8cap4/capitulo4}
+
+\newpage 
+\subfile{./9cap5/capitulo5}
+
+% ================== Cierres ==================
+\newpage 
+\subfile{./10conclusiones/conclusiones}
+\newpage 
+\subfile{./11recomendaciones/recomendaciones}
+\newpage 
+\subfile{./12referencias/referencias}
+\newpage 
+\subfile{./13anexos/anexos}
+
+\end{document}
+
