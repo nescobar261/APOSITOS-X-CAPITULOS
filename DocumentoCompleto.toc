@@ -85,9 +85,8 @@
 \contentsline {subsubsection}{\numberline {3.3.4.3}Matriz de filtrado de la geometría}{37}{subsubsection.3.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.3.4.4}Matriz de evaluación de concepto}{38}{subsubsection.3.3.4.4}%
 \contentsline {section}{\numberline {3.4}Selección del Concepto}{40}{section.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.0.1}Concepto de material}{42}{subsubsection.3.4.0.1}%
-\contentsline {subsubsection}{\numberline {3.4.0.2}Concepto de aditivo}{42}{subsubsection.3.4.0.2}%
-\contentsline {subsubsection}{\numberline {3.4.0.3}Concepto de geometría}{42}{subsubsection.3.4.0.3}%
+\contentsline {subsubsection}{\numberline {3.4.0.1}Concepto de aditivo}{42}{subsubsection.3.4.0.1}%
+\contentsline {subsubsection}{\numberline {3.4.0.2}Concepto de geometría}{42}{subsubsection.3.4.0.2}%
 \contentsline {section}{\numberline {3.5}Discusión}{42}{section.3.5}%
 \contentsline {chapter}{\numberline {4}Titulo Capitulo 4}{43}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Contexto}{43}{section.4.1}%

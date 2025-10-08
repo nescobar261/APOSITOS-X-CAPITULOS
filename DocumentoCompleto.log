@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.22)  5 OCT 2025 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.22)  8 OCT 2025 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1100,7 +1100,7 @@ l.11
 
 ] [2] [3] [4] [5] [6] [7]) [8] (6cap2/capitulo2.tex
 Cap\'{\i }tulo 2.
-<Figuras/levantamiento_requerimientos.png, id=801, 1445.4pt x 813.0375pt>
+<Figuras/levantamiento_requerimientos.png, id=796, 1445.4pt x 813.0375pt>
 File: Figuras/levantamiento_requerimientos.png Graphic file (type png)
 <use Figuras/levantamiento_requerimientos.png>
 Package pdftex.def Info: Figuras/levantamiento_requerimientos.png  used on inpu
@@ -1118,7 +1118,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 (C:\Program Files\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [11]
-<Figuras/MAPAEMPATIA.png, id=817, 1388.93906pt x 631.60968pt>
+<Figuras/MAPAEMPATIA.png, id=812, 1388.93906pt x 631.60968pt>
 File: Figuras/MAPAEMPATIA.png Graphic file (type png)
 <use Figuras/MAPAEMPATIA.png>
 Package pdftex.def Info: Figuras/MAPAEMPATIA.png  used on input line 86.
@@ -1184,7 +1184,7 @@ Overfull \hbox (8.24681pt too wide) in paragraph at lines 331--331
 
 [19] [20]) [21] (7cap3/capitulo3.tex
 Cap\'{\i }tulo 3.
-<Figuras/GENERACIONCONCEPTOS.png, id=887, 1851.91875pt x 952.55875pt>
+<Figuras/GENERACIONCONCEPTOS.png, id=882, 1851.91875pt x 952.55875pt>
 File: Figuras/GENERACIONCONCEPTOS.png Graphic file (type png)
 <use Figuras/GENERACIONCONCEPTOS.png>
 Package pdftex.def Info: Figuras/GENERACIONCONCEPTOS.png  used on input line 20
@@ -1196,7 +1196,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [22
 
 ] [23 <./Figuras/GENERACIONCONCEPTOS.png>] [24]
-<Figuras/HIDROGELGELATINACOLAGENO.png, id=907, 159.59625pt x 164.615pt>
+<Figuras/HIDROGELGELATINACOLAGENO.png, id=902, 159.59625pt x 164.615pt>
 File: Figuras/HIDROGELGELATINACOLAGENO.png Graphic file (type png)
 <use Figuras/HIDROGELGELATINACOLAGENO.png>
 Package pdftex.def Info: Figuras/HIDROGELGELATINACOLAGENO.png  used on input li
@@ -1207,14 +1207,14 @@ ne 74.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [25]
-<Figuras/PIEL DE TILAPIA.png, id=916, 1027.84pt x 710.655pt>
+<Figuras/PIEL DE TILAPIA.png, id=911, 1027.84pt x 710.655pt>
 File: Figuras/PIEL DE TILAPIA.png Graphic file (type png)
 <use Figuras/PIEL DE TILAPIA.png>
 Package pdftex.def Info: Figuras/PIEL DE TILAPIA.png  used on input line 90.
 (pdftex.def)             Requested size: 195.63823pt x 135.2644pt.
  [26 <./Figuras/HIDROGELGELATINACOLAGENO.png> <./Figuras/PIEL DE TILAPIA.png (P
 NG copy)>]
-<Figuras/NANOFIBRAS ELECTROHILADAS DE QUITOSANO PVP.png, id=931, 454.69875pt x 
+<Figuras/NANOFIBRAS ELECTROHILADAS DE QUITOSANO PVP.png, id=926, 454.69875pt x 
 317.68687pt>
 File: Figuras/NANOFIBRAS ELECTROHILADAS DE QUITOSANO PVP.png Graphic file (type
  png)
@@ -1227,14 +1227,14 @@ Package pdftex.def Info: Figuras/NANOFIBRAS ELECTROHILADAS DE QUITOSANO PVP.png
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [27]
-<Figuras/MEMBRANA AMNIOTICA.png, id=942, 1204.5pt x 843.15pt>
+<Figuras/MEMBRANA AMNIOTICA.png, id=937, 1204.5pt x 843.15pt>
 File: Figuras/MEMBRANA AMNIOTICA.png Graphic file (type png)
 <use Figuras/MEMBRANA AMNIOTICA.png>
 Package pdftex.def Info: Figuras/MEMBRANA AMNIOTICA.png  used on input line 147
 .
 (pdftex.def)             Requested size: 195.63823pt x 136.93948pt.
 <Figuras/NANOFIBRAS DE POLICAPROLACTONA GELATINA POLIESTIRENO COLAGENO QUITOSAN
-O.png, id=946, 213.79875pt x 209.28188pt>
+O.png, id=941, 213.79875pt x 209.28188pt>
 File: Figuras/NANOFIBRAS DE POLICAPROLACTONA GELATINA POLIESTIRENO COLAGENO QUI
 TOSANO.png Graphic file (type png)
 <use Figuras/NANOFIBRAS DE POLICAPROLACTONA GELATINA POLIESTIRENO COLAGENO QUIT
@@ -1245,7 +1245,7 @@ TIRENO COLAGENO QUITOSANO.png  used on input line 165.
  [28 <./Figuras/NANOFIBRAS ELECTROHILADAS DE QUITOSANO PVP.png> <./Figuras/MEMB
 RANA AMNIOTICA.png (PNG copy)>] [29 <./Figuras/NANOFIBRAS DE POLICAPROLACTONA G
 ELATINA POLIESTIRENO COLAGENO QUITOSANO.png>]
-<Figuras/TRADICIONAL PRIMER ORDEN.png, id=973, 234.8775pt x 199.49532pt>
+<Figuras/TRADICIONAL PRIMER ORDEN.png, id=968, 234.8775pt x 199.49532pt>
 File: Figuras/TRADICIONAL PRIMER ORDEN.png Graphic file (type png)
 <use Figuras/TRADICIONAL PRIMER ORDEN.png>
 Package pdftex.def Info: Figuras/TRADICIONAL PRIMER ORDEN.png  used on input li
@@ -1255,7 +1255,7 @@ ne 218.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figuras/TRADICIONAL SEGUNDO ORDEN.png, id=977, 229.60782pt x 182.18062pt>
+<Figuras/TRADICIONAL SEGUNDO ORDEN.png, id=972, 229.60782pt x 182.18062pt>
 File: Figuras/TRADICIONAL SEGUNDO ORDEN.png Graphic file (type png)
 <use Figuras/TRADICIONAL SEGUNDO ORDEN.png>
 Package pdftex.def Info: Figuras/TRADICIONAL SEGUNDO ORDEN.png  used on input l
@@ -1265,7 +1265,7 @@ ine 235.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [30]
-<Figuras/TRADICIONAL TERCER ORDEN.png, id=990, 217.5628pt x 179.92218pt>
+<Figuras/TRADICIONAL TERCER ORDEN.png, id=985, 217.5628pt x 179.92218pt>
 File: Figuras/TRADICIONAL TERCER ORDEN.png Graphic file (type png)
 <use Figuras/TRADICIONAL TERCER ORDEN.png>
 Package pdftex.def Info: Figuras/TRADICIONAL TERCER ORDEN.png  used on input li
@@ -1275,7 +1275,7 @@ ne 251.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figuras/TIPO Y.png, id=994, 224.037pt x 230.0595pt>
+<Figuras/TIPO Y.png, id=989, 224.037pt x 230.0595pt>
 File: Figuras/TIPO Y.png Graphic file (type png)
 <use Figuras/TIPO Y.png>
 Package pdftex.def Info: Figuras/TIPO Y.png  used on input line 265.
@@ -1285,7 +1285,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [31 <./Figuras/TRADICIONAL PRIMER ORDEN.png> <./Figuras/TRADICIONAL SEGUNDO ORD
 EN.png>]
-<Figuras/TIPO I.png, id=1005, 440.847pt x 437.2335pt>
+<Figuras/TIPO I.png, id=1000, 440.847pt x 437.2335pt>
 File: Figuras/TIPO I.png Graphic file (type png)
 <use Figuras/TIPO I.png>
 Package pdftex.def Info: Figuras/TIPO I.png  used on input line 280.
@@ -1295,25 +1295,25 @@ Package pdftex.def Info: Figuras/TIPO I.png  used on input line 280.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [32 <./Figuras/TRADICIONAL TERCER ORDEN.png> <./Figuras/TIPO Y.png>]
-<Figuras/TIPO PANAL DE ABEJAS.png, id=1015, 376.40625pt x 382.42876pt>
+<Figuras/TIPO PANAL DE ABEJAS.png, id=1010, 376.40625pt x 382.42876pt>
 File: Figuras/TIPO PANAL DE ABEJAS.png Graphic file (type png)
 <use Figuras/TIPO PANAL DE ABEJAS.png>
 Package pdftex.def Info: Figuras/TIPO PANAL DE ABEJAS.png  used on input line 2
 94.
 (pdftex.def)             Requested size: 195.63823pt x 198.77072pt.
-<Figuras/TIPO H.png, id=1019, 393.26926pt x 374.5995pt>
+<Figuras/TIPO H.png, id=1014, 393.26926pt x 374.5995pt>
 File: Figuras/TIPO H.png Graphic file (type png)
 <use Figuras/TIPO H.png>
 Package pdftex.def Info: Figuras/TIPO H.png  used on input line 308.
 (pdftex.def)             Requested size: 195.63823pt x 186.35045pt.
  [33 <./Figuras/TIPO I.png> <./Figuras/TIPO PANAL DE ABEJAS.png>]
-<Figuras/TIPO RR.png, id=1029, 405.31425pt x 407.72325pt>
+<Figuras/TIPO RR.png, id=1024, 405.31425pt x 407.72325pt>
 File: Figuras/TIPO RR.png Graphic file (type png)
 <use Figuras/TIPO RR.png>
 Package pdftex.def Info: Figuras/TIPO RR.png  used on input line 322.
 (pdftex.def)             Requested size: 195.63823pt x 196.79988pt.
  [34 <./Figuras/TIPO H.png> <./Figuras/TIPO RR.png>]
-<Figuras/TIPO AS.png, id=1039, 433.62pt x 441.44925pt>
+<Figuras/TIPO AS.png, id=1034, 433.62pt x 441.44925pt>
 File: Figuras/TIPO AS.png Graphic file (type png)
 <use Figuras/TIPO AS.png>
 Package pdftex.def Info: Figuras/TIPO AS.png  used on input line 337.
@@ -1333,9 +1333,9 @@ Package array Warning: Column C is already defined on input line 693.
 [39] [40] [41]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 817.
+(hyperref)                than one, level fixed on input line 819.
 
-<Figuras/MODIFICACIONESATIPOI.png, id=1073, 232.4685pt x 277.035pt>
+<Figuras/MODIFICACIONESATIPOI.png, id=1068, 232.4685pt x 277.035pt>
 File: Figuras/MODIFICACIONESATIPOI.png Graphic file (type png)
 <use Figuras/MODIFICACIONESATIPOI.png>
 Package pdftex.def Info: Figuras/MODIFICACIONESATIPOI.png  used on input line 8
@@ -1391,16 +1391,16 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `DocumentoCompleto.out' has not changed.
-(rerunfilecheck)             Checksum: F5D3D7B5962252ABC8D8A73BD207DF9D;18177.
+(rerunfilecheck)             Checksum: 0D8D62F679303D39920E1A85C95CC77B;17994.
 Package logreq Info: Writing requests to 'DocumentoCompleto.run.xml'.
 \openout1 = `DocumentoCompleto.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28246 strings out of 474486
- 556656 string characters out of 5753570
+ 28244 strings out of 474486
+ 556612 string characters out of 5753570
  2004542 words of memory out of 5000000
- 49803 multiletter control sequences out of 15000+600000
+ 49802 multiletter control sequences out of 15000+600000
  596354 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,12n,89p,2135b,3662s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1413,9 +1413,9 @@ pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiK
 TeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/t
 imes/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on DocumentoCompleto.pdf (68 pages, 6525149 bytes).
+Output written on DocumentoCompleto.pdf (68 pages, 6524467 bytes).
 PDF statistics:
- 1364 PDF objects out of 1440 (max. 8388607)
- 273 named destinations out of 1000 (max. 500000)
- 867 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1359 PDF objects out of 1440 (max. 8388607)
+ 272 named destinations out of 1000 (max. 500000)
+ 859 words of extra memory for PDF output out of 10000 (max. 10000000)
 
