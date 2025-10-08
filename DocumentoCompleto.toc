@@ -27,13 +27,9 @@
 \contentsline {section}{\numberline {2.3}Resultados}{11}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Recopilar datos sin procesar de los clientes}{11}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Interpretar los datos en términos de necesidades}{12}{subsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.2.1}Mapa de la empatía}{12}{subsubsection.2.3.2.1}%
 \contentsline {subsection}{\numberline {2.3.3}Organizar las necesidades en una jerarquía}{13}{subsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.1}Identificación de las necesidades del cliente}{13}{subsubsection.2.3.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.3.2}Ponderación y Jerarquía de las necesidades del cliente}{15}{subsubsection.2.3.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3.3}Definición de métricas}{18}{subsubsection.2.3.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.3.4}Comparación con la competencia}{19}{subsubsection.2.3.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.3.5}Definición de valores marginales e ideales }{20}{subsubsection.2.3.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.3.1}Comparación con la competencia}{19}{subsubsection.2.3.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.3.2}Definición de valores marginales e ideales }{20}{subsubsection.2.3.3.2}%
 \contentsline {section}{\numberline {2.4}Discusión}{21}{section.2.4}%
 \contentsline {chapter}{\numberline {3}Definición del concepto}{22}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introducción}{22}{section.3.1}%
