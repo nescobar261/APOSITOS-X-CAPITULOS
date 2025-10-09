@@ -1,0 +1,74 @@
+# Archivos generados por LaTeX
+*.aux
+*.bbl
+*.blg
+*.brf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.acn
+*.acr
+*.alg
+*.glg
+*.glo
+*.gls
+*.ist
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.nav
+*.snm
+*.vrb
+*.upa
+*.upb
+
+# Archivos de bibliografía
+*.bcf
+*.run.xml
+
+# Archivos intermedios de beamer
+*.nav
+*.snm
+
+# Archivos de estilo o cache de LaTeX Workshop (VSCode)
+*.pdfsync
+*.xdv
+*.dvi
+
+# Archivos temporales del editor
+*.swp
+*.bak
+*.tmp
+*.backup
+*.sav
+
+# Carpetas de salida
+_build/
+output/
+out/
+latex.out/
+build/
+temp/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de compiladores (MiKTeX, TeX Live)
+texmf/
+*.auxlock
+*.log-*
+
+# Archivos generados por TeXstudio
+*.synctex.gz
+*.backup
+
+# Archivos PDF generados (opcional)
+# Si NO quieres subir los PDF generados, descomenta la siguiente línea:
+# *.pdf
